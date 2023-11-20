@@ -61,6 +61,7 @@ const Product = ({product, setProduct, detail, view, close, setClose, addtocart,
               <ul>
                 <li onClick={() => AllProducts()}>All Products</li>
                 <li onClick={() => filtterproduct('meat')}>meat</li>
+                <li onClick={() => filtterproduct('soup')}>soup</li>
                 <li onClick={() => filtterproduct('desert')}>desert</li>
                 <li onClick={() => filtterproduct('traditional meal')}>
                  traditional meal
