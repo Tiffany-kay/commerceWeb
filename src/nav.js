@@ -28,7 +28,7 @@ const Nav = ({searchbtn}) => {
             <h3>food that seduces you</h3>
         </div>
         <div className='search_box'>
-            <input type='text' value={search}placeholder='Search your Product' autoComplete='off' onChange={(e)=> setSearch(e.target.value)}></input>
+            <input type='text' value={search}placeholder='Search based on category' autoComplete='off' onChange={(e)=> setSearch(e.target.value)}></input>
             <button onClick={() => searchbtn (search)}>Search</button>
         </div>
         <div className='icon'>
